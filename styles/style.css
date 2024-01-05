@@ -1,0 +1,62 @@
+img, picture {
+    max-width: 100%;
+  }
+  body {
+    line-height: 1.5;
+    font-family: 'Figtree', sans-serif;
+    font-size:1rem; 
+    background-color: hsl(47, 88%, 63%);
+  }
+  .main{
+    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .card{
+    max-width: 22rem;
+    margin:1.5rem;
+    padding:1.5rem;
+    background-color: hsl(0, 0%, 100%); 
+    border:solid black 2px;
+    box-shadow: 0.5rem 0.5rem;
+  }
+  .learningBox {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: fit-content;
+    padding: .20rem;
+  }
+  h1 {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  h1:is(:hover){
+    color:hsl(47, 88%, 63%);
+  }
+
+  .textParagraph {
+    color:hsl(0, 0%, 50%); 
+  }
+  .bgImage {
+    border-radius: 10px;
+    overflow: auto;
+    height:12rem;
+    object-fit:cover;
+    margin-bottom:1rem;
+  }
+  .author {
+    display:flex;
+    align-items: center;
+    font-weight: 800;
+  }
+  .author img {
+    height:2rem;
+  }
+  h2 {
+    font-weight: 800;
+    font-size: 1rem;
+  }
+
+
